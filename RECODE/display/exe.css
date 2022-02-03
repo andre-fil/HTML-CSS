@@ -1,0 +1,15 @@
+.init{
+    background-image: linear-gradient(to right, red, black);
+    text-align: justify;
+    color:white
+}
+.init:after{
+    content:'';
+    width: 100%;
+    height: 0;
+    display: inline-block;
+}
+.init-item{
+    display: inline-block;
+    margin-right: 5%;
+}
