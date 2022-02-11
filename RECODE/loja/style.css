@@ -87,7 +87,7 @@ body{
   
 
     display:inline-block;
-    background-color: blue;
+   
     
  
 
@@ -96,20 +96,26 @@ body{
 .produto{
    
     
-    margin-top: 0%;
+    margin-top: -12%;
     margin-left: 10%;
     display:inline-block;
-    background-color: blueviolet;
+    width: 100%;
+ 
    
     
 }
 
 .boxProduto{
     display:inline-block;
-
+    padding-top: 40px;
     padding: 40px;
 }
 
 .footer{
     text-align: center;
+}
+
+.preco{
+    font-weight: 800;
+    color:red
 }
